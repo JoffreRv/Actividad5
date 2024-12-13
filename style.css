@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
