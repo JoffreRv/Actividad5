@@ -19,13 +19,13 @@ body {
 }
 
 .navbar .nav-link:hover {
-    color: #ffc107; 
-    border-color: #ffc107; 
-    background-color: rgba(255, 193, 7, 0.1);
+    color: #e1db28; 
+    border-color: #07ff77; 
+    background-color: rgba(218, 255, 7, 0.1);
 }
 
 .navbar .nav-link.active {
-    color: #ffc107;
+    color: #3dff07;
     border-color: #ffc107;
     background-color: rgba(255, 193, 7, 0.2); 
 }
@@ -36,6 +36,7 @@ body {
     color: white;
     padding: 150px 20px;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .hero h1 {
@@ -112,7 +113,10 @@ body {
 
 .section-title {
     font-size: 2rem;
+    line-height: 1.6;
     font-weight: bold;
+    color: #245551;
+    margin-bottom: 15px;
 }
 
 .card-img-top {
